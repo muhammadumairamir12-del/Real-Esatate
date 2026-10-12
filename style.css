@@ -456,8 +456,81 @@ footer { background: #06122a; padding: 75px 5% 30px; }
   .nav-links { display: none; }
   .hamburger { display: flex; }
   .nav-phone { display: none; }
-  .hero-search-bar { padding: 0 5% 28px; }
-  .search-card { padding: 18px; gap: 10px; }
+
+  .hero {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    background: #0a193c;
+    margin-top: 72px;
+    position: relative;
+    overflow: visible;
+  }
+  .hero-track {
+    height: auto;
+  }
+  .hero-slide {
+    height: auto;
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .hero-content {
+    position: relative;
+    inset: auto;
+    padding: 50px 6% 40px;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .hero-title {
+    font-size: clamp(2.2rem, 8vw, 3.2rem);
+    margin-bottom: 16px;
+  }
+  .hero-subtitle {
+    font-size: .95rem;
+    margin-bottom: 24px;
+    line-height: 1.6;
+  }
+  .hero-search-bar {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    z-index: 4;
+    padding: 0 5% 35px;
+    margin-top: -30px;
+  }
+  .search-card {
+    background: #ffffff;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-lg);
+    border-radius: var(--radius-lg);
+    padding: 22px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .search-field {
+    min-width: 0;
+  }
+  .search-btn {
+    grid-column: 1 / -1;
+    width: 100%;
+    justify-content: center;
+    padding: 13px;
+    font-size: .95rem;
+    margin-top: 4px;
+  }
+  .hero-arrow {
+    display: none !important;
+  }
+  .hero-dots {
+    right: 15px;
+    top: 35%;
+  }
+
   .stats-inner { grid-template-columns: 1fr 1fr; }
   .stat-item:nth-child(2)::after { display: none; }
   section.section { padding: 65px 5%; }
@@ -468,10 +541,9 @@ footer { background: #06122a; padding: 75px 5% 30px; }
 }
 @media (max-width: 480px) {
   .cat-grid { grid-template-columns: repeat(3, 1fr); }
-  .hero { height: 90vh; }
   .hero-btns { flex-direction: column; }
-  .hero-title { font-size: 2.5rem; }
+  .hero-title { font-size: 2.3rem; }
+  .search-card { grid-template-columns: 1fr; gap: 12px; }
   .stats-inner { grid-template-columns: 1fr 1fr; }
   .filter-bar-row { flex-direction: column; }
-  .search-card { flex-direction: column; }
 }
