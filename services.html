@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comprehensive Property & Vendor Services — SkyEagle Real Estate Lahore</title>
+<meta name="description" content="Explore full-spectrum real estate services in Lahore: Property Sales, Legal Verification, Home Staging, Construction, Interior Design, and Property Management.">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body data-page="services">
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-icon"><i class="fas fa-concierge-bell"></i></div>
+  <div class="loader-brand">SkyEagle Services</div>
+  <div class="loader-tagline">End-to-End Real Estate Solutions</div>
+  <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+</div>
+<div id="scroll-progress"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <a href="index.html" class="nav-logo">
+    <div class="logo-mark"><i class="fas fa-building"></i></div>
+    <div class="logo-text">
+      <span class="logo-name">SkyEagle</span>
+      <span class="logo-tagline">Real Estate · Lahore</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="properties.html">Properties</a></li>
+    <li><a href="services.html" class="active">Services</a></li>
+    <li><a href="vendors.html">Vendors</a></li>
+    <li><a href="vendor-portal.html">Vendor Portal</a></li>
+    <li><a href="agents.html">Our Agents</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="nav-actions">
+    <div class="nav-phone"><i class="fas fa-phone-alt"></i> 03184195665</div>
+    <a href="contact.html" class="nav-cta"><i class="fas fa-calendar-check"></i> Book Service</a>
+    <button class="hamburger" id="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="mobile-nav" id="mobile-nav">
+  <a href="index.html">Home</a>
+  <a href="properties.html">All Properties</a>
+  <a href="services.html" class="active">Services</a>
+  <a href="vendors.html">Vendors Directory</a>
+  <a href="vendor-portal.html">Vendor Portal</a>
+  <a href="agents.html">Our Agents</a>
+  <a href="about.html">About Us</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero" style="background-image:linear-gradient(rgba(10,25,60,.84), rgba(10,25,60,.9)), url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1400'); background-size:cover; background-position:center; padding: 130px 5% 70px; text-align:center; color:#fff;">
+  <div class="section-label" style="justify-content:center; color:var(--gold-light)">Our Capabilities</div>
+  <h1 style="font-family:var(--font-display); font-size: clamp(2.5rem, 5vw, 4rem); margin-bottom: 15px;">Full-Service <em>Estate & Vendor Solutions</em></h1>
+  <p style="max-width: 680px; margin: 0 auto 30px; font-weight: 300; font-size: 1.05rem; color: rgba(255,255,255,.85); line-height: 1.7;">From property valuation and legal documentation to turnkey construction, interior design, and tenant management in Lahore.</p>
+</section>
+
+<!-- SERVICE CATEGORIES TABS SECTION -->
+<section class="section">
+  <div class="section-header" style="text-align:center">
+    <div class="section-label" style="justify-content:center">What We Offer</div>
+    <h2 class="section-title">Professional Services for <em>Buyers, Sellers & Vendors</em></h2>
+  </div>
+
+  <div style="display:flex; justify-content:center; gap:12px; flex-wrap:wrap; margin-top:30px; margin-bottom:40px;">
+    <button class="vendor-pill active" onclick="switchServiceCategory('core')" id="sc-core"><i class="fas fa-home"></i> Core Real Estate</button>
+    <button class="vendor-pill" onclick="switchServiceCategory('vendor')" id="sc-vendor"><i class="fas fa-tools"></i> Vendor & Contracting</button>
+    <button class="vendor-pill" onclick="switchServiceCategory('legal')" id="sc-legal"><i class="fas fa-gavel"></i> Legal & Advisory</button>
+    <button class="vendor-pill" onclick="switchServiceCategory('property-mgmt')" id="sc-property-mgmt"><i class="fas fa-tasks"></i> Property Management</button>
+  </div>
+
+  <!-- CORE REAL ESTATE SERVICES GRID -->
+  <div class="services-group" id="group-core" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap:30px;">
+    <div class="why-card" style="background:#fff; padding:32px; border-radius:16px; box-shadow:var(--shadow-sm); border:1px solid var(--border);">
+      <div style="width:55px; height:55px; border-radius:12px; background:var(--rose-soft); color:var(--rose); display:flex; align-items:center; justify-content:center; font-size:1.5rem; margin-bottom:20px;"><i class="fas fa-tags"></i></div>
+      <h3 style="font-family:var(--font-display); font-size:1.3rem; margin-bottom:12px;">Property Buying & Selling</h3>
+      <p style="color:var(--text-light); font-size:.93rem; line-height:1.7; margin-bottom:18px;">Expert negotiation and market matching for houses, plots, apartments, and commercial projects across DHA, Bahria Town, and Gulberg.</p>
+      <a href="contact.html" style="color:var(--rose); font-weight:700; font-size:.88rem; text-transform:uppercase; letter-spacing:1px; text-decoration:none;">Consult Experts <i class="fas fa-arrow-right"></i></a>
+    </div>
+
+    <div class="why-card" style="background:#fff; padding:32px; border-radius:16px; box-shadow:var(--shadow-sm); border:1px solid var(--border);">
+      <div style="width:55px; height:55px; border-radius:12px; background:var(--rose-soft); color:var(--rose); display:flex; align-items:center; justify-content:center; font-size:1.5rem; margin-bottom:20px;"><i class="fas fa-calculator"></i></div>
+      <h3 style="font-family:var(--font-display); font-size:1.3rem; margin-bottom:12px;">Free Market Valuation</h3>
+      <p style="color:var(--text-light); font-size:.93rem; line-height:1.7; margin-bottom:18px;">Accurate, data-driven assessment of your property's current sale or rental market value based on recent transactions.</p>
+      <a href="contact.html" style="color:var(--rose); font-weight:700; font-size:.88rem; text-transform:uppercase; letter-spacing:1px; text-decoration:none;">Get Valuation <i class="fas fa-arrow-right"></i></a>
+    </div>
+
+    <div class="why-card" style="background:#fff; padding:32px; border-radius:16px; box-shadow:var(--shadow-sm); border:1px solid var(--border);">
+      <div style="width:55px; height:55px; border-radius:12px; background:var(--rose-soft); color:var(--rose); display:flex; align-items:center; justify-content:center; font-size:1.5rem; margin-bottom:20px;"><i class="fas fa-globe"></i></div>
+      <h3 style="font-family:var(--font-display); font-size:1.3rem; margin-bottom:12px;">Overseas Client Desk</h3>
+      <p style="color:var(--text-light); font-size:.93rem; line-height:1.7; margin-bottom:18px;">Dedicated remote purchasing assistance for overseas Pakistanis with video tours, power of attorney guidance, and secure transactions.</p>
+      <a href="contact.html" style="color:var(--rose); font-weight:700; font-size:.88rem; text-transform:uppercase; letter-spacing:1px; text-decoration:none;">Overseas Desk <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <!-- VENDOR & CONTRACTING SERVICES GRID -->
+  <div class="services-group" id="group-vendor" style="display:none; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap:30px;">
+    <div class="why-card" style="background:#fff; padding:32px; border-radius:16px; box-shadow:var(--shadow-sm); border:1px solid var(--border);">
+      <div style="width:55px; height:55px; border-radius:12px; background:var(--blue-soft); color:var(--blue); display:flex; align-items:center; justify-content:center; font-size:1.5rem; margin-bottom:20px;"><i class="fas fa-hard-hat"></i></div>
+      <h3 style="font-family:var(--font-display); font-size:1.3rem; margin-bottom:12px;">Turnkey Construction</h3>
+      <p style="color:var(--text-light); font-size:.93rem; line-height:1.7; margin-bottom:18px;">Grey structure and complete turn-key house construction overseen by certified civil engineers and architectural vendors.</p>
+      <a href="vendors.html?cat=construction" style="color:var(--blue); font-weight:700; font-size:.88rem; text-transform:uppercase; letter-spacing:1px; text-decoration:none;">Explore Contractors <i class="fas fa-arrow-right"></i></a>
+    </div>
+
+    <div class="why-card" style="background:#fff; padding:32px; border-radius:16px; box-shadow:var(--shadow-sm); border:1px solid var(--border);">
+      <div style="width:55px; height:55px; border-radius:12px; background:var(--blue-soft); color:var(--blue); display:flex; align-items:center; justify-content:center; font-size:1.5rem; margin-bottom:20px;"><i class="fas fa-couch"></i></div>
+      <h3 style="font-family:var(--font-display); font-size:1.3rem; margin-bottom:12px;">Interior Staging & Design</h3>
+      <p style="color:var(--text-light); font-size:.93rem; line-height:1.7; margin-bottom:18px;">Home staging services to increase sale velocity and 3D interior design for modern residential and office spaces.</p>
+      <a href="vendors.html?cat=interior" style="color:var(--blue); font-weight:700; font-size:.88rem; text-transform:uppercase; letter-spacing:1px; text-decoration:none;">View Stagers <i class="fas fa-arrow-right"></i></a>
+    </div>
+
+    <div class="why-card" style="background:#fff; padding:32px; border-radius:16px; box-shadow:var(--shadow-sm); border:1px solid var(--border);">
+      <div style="width:55px; height:55px; border-radius:12px; background:var(--blue-soft); color:var(--blue); display:flex; align-items:center; justify-content:center; font-size:1.5rem; margin-bottom:20px;"><i class="fas fa-truck-moving"></i></div>
+      <h3 style="font-family:var(--font-display); font-size:1.3rem; margin-bottom:12px;">Packers & Movers</h3>
+      <p style="color:var(--text-light); font-size:.93rem; line-height:1.7; margin-bottom:18px;">Hassle-free residential and commercial relocations across Lahore with insured packaging and transport handling.</p>
+      <a href="vendors.html?cat=moving" style="color:var(--blue); font-weight:700; font-size:.88rem; text-transform:uppercase; letter-spacing:1px; text-decoration:none;">Book Movers <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <!-- LEGAL SERVICES GRID -->
+  <div class="services-group" id="group-legal" style="display:none; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap:30px;">
+    <div class="why-card" style="background:#fff; padding:32px; border-radius:16px; box-shadow:var(--shadow-sm); border:1px solid var(--border);">
+      <div style="width:55px; height:55px; border-radius:12px; background:var(--gold-soft); color:var(--text); display:flex; align-items:center; justify-content:center; font-size:1.5rem; margin-bottom:20px;"><i class="fas fa-file-contract"></i></div>
+      <h3 style="font-family:var(--font-display); font-size:1.3rem; margin-bottom:12px;">Title & Property Verification</h3>
+      <p style="color:var(--text-light); font-size:.93rem; line-height:1.7; margin-bottom:18px;">Verification of registry documents, LDA / DHA records, NOCs, and title deeds before any payment is transferred.</p>
+      <a href="contact.html" style="color:var(--blue); font-weight:700; font-size:.88rem; text-transform:uppercase; letter-spacing:1px; text-decoration:none;">Verify Document <i class="fas fa-arrow-right"></i></a>
+    </div>
+
+    <div class="why-card" style="background:#fff; padding:32px; border-radius:16px; box-shadow:var(--shadow-sm); border:1px solid var(--border);">
+      <div style="width:55px; height:55px; border-radius:12px; background:var(--gold-soft); color:var(--text); display:flex; align-items:center; justify-content:center; font-size:1.5rem; margin-bottom:20px;"><i class="fas fa-balance-scale"></i></div>
+      <h3 style="font-family:var(--font-display); font-size:1.3rem; margin-bottom:12px;">Transfer & Registry Execution</h3>
+      <p style="color:var(--text-light); font-size:.93rem; line-height:1.7; margin-bottom:18px;">Full legal handling of registry, stamp duty calculations, and official transfer proceedings at authority offices.</p>
+      <a href="contact.html" style="color:var(--blue); font-weight:700; font-size:.88rem; text-transform:uppercase; letter-spacing:1px; text-decoration:none;">Request Legal Aid <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <!-- PROPERTY MANAGEMENT SERVICES GRID -->
+  <div class="services-group" id="group-property-mgmt" style="display:none; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap:30px;">
+    <div class="why-card" style="background:#fff; padding:32px; border-radius:16px; box-shadow:var(--shadow-sm); border:1px solid var(--border);">
+      <div style="width:55px; height:55px; border-radius:12px; background:var(--rose-soft); color:var(--rose); display:flex; align-items:center; justify-content:center; font-size:1.5rem; margin-bottom:20px;"><i class="fas fa-key"></i></div>
+      <h3 style="font-family:var(--font-display); font-size:1.3rem; margin-bottom:12px;">Tenant Screening & Leasing</h3>
+      <p style="color:var(--text-light); font-size:.93rem; line-height:1.7; margin-bottom:18px;">Thorough background verification, lease agreement legal drafting, and automated rent collection for landlords.</p>
+      <a href="contact.html" style="color:var(--rose); font-weight:700; font-size:.88rem; text-transform:uppercase; letter-spacing:1px; text-decoration:none;">List Rental <i class="fas fa-arrow-right"></i></a>
+    </div>
+
+    <div class="why-card" style="background:#fff; padding:32px; border-radius:16px; box-shadow:var(--shadow-sm); border:1px solid var(--border);">
+      <div style="width:55px; height:55px; border-radius:12px; background:var(--rose-soft); color:var(--rose); display:flex; align-items:center; justify-content:center; font-size:1.5rem; margin-bottom:20px;"><i class="fas fa-tools"></i></div>
+      <h3 style="font-family:var(--font-display); font-size:1.3rem; margin-bottom:12px;">Property Maintenance Care</h3>
+      <p style="color:var(--text-light); font-size:.93rem; line-height:1.7; margin-bottom:18px;">Routine physical inspections, electrical/plumbing maintenance, and structural upkeep for vacant or rented units.</p>
+      <a href="vendors.html" style="color:var(--rose); font-weight:700; font-size:.88rem; text-transform:uppercase; letter-spacing:1px; text-decoration:none;">Find Maintenance <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE PROCESS STEPS -->
+<section class="section section-bg">
+  <div class="section-header" style="text-align:center">
+    <div class="section-label" style="justify-content:center">Seamless Experience</div>
+    <h2 class="section-title">How SkyEagle <em>Delivers Services</em></h2>
+  </div>
+
+  <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:25px; margin-top:40px;">
+    <div style="background:#fff; padding:25px; border-radius:14px; text-align:center; position:relative;">
+      <div style="width:45px; height:45px; border-radius:50%; background:var(--blue); color:#fff; font-weight:700; font-size:1.2rem; display:flex; align-items:center; justify-content:center; margin:0 auto 15px;">1</div>
+      <h4 style="font-family:var(--font-display); font-size:1.1rem; margin-bottom:8px;">Submit Request</h4>
+      <p style="color:var(--text-light); font-size:.88rem; line-height:1.6;">Contact us or select a verified vendor from our directory with your project requirements.</p>
+    </div>
+
+    <div style="background:#fff; padding:25px; border-radius:14px; text-align:center; position:relative;">
+      <div style="width:45px; height:45px; border-radius:50%; background:var(--blue); color:#fff; font-weight:700; font-size:1.2rem; display:flex; align-items:center; justify-content:center; margin:0 auto 15px;">2</div>
+      <h4 style="font-family:var(--font-display); font-size:1.1rem; margin-bottom:8px;">Expert Inspection</h4>
+      <p style="color:var(--text-light); font-size:.88rem; line-height:1.6;">Our agents and vendor partners conduct site visits and present transparent quotations.</p>
+    </div>
+
+    <div style="background:#fff; padding:25px; border-radius:14px; text-align:center; position:relative;">
+      <div style="width:45px; height:45px; border-radius:50%; background:var(--blue); color:#fff; font-weight:700; font-size:1.2rem; display:flex; align-items:center; justify-content:center; margin:0 auto 15px;">3</div>
+      <h4 style="font-family:var(--font-display); font-size:1.2rem; margin-bottom:8px;">Quality Execution</h4>
+      <p style="color:var(--text-light); font-size:.88rem; line-height:1.6;">Work is executed according to agreed timelines with SkyEagle oversight.</p>
+    </div>
+
+    <div style="background:#fff; padding:25px; border-radius:14px; text-align:center; position:relative;">
+      <div style="width:45px; height:45px; border-radius:50%; background:var(--blue); color:#fff; font-weight:700; font-size:1.2rem; display:flex; align-items:center; justify-content:center; margin:0 auto 15px;">4</div>
+      <h4 style="font-family:var(--font-display); font-size:1.1rem; margin-bottom:8px;">Satisfaction Guarantee</h4>
+      <p style="color:var(--text-light); font-size:.88rem; line-height:1.6;">Final audit & handover ensured with complete satisfaction and warranty support.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FREQUENTLY ASKED QUESTIONS -->
+<section class="section">
+  <div class="section-header" style="text-align:center">
+    <div class="section-label" style="justify-content:center">Got Questions?</div>
+    <h2 class="section-title">Frequently Asked <em>Questions</em></h2>
+  </div>
+
+  <div style="max-width:800px; margin:40px auto 0;">
+    <div style="margin-bottom:15px; border:1px solid var(--border); border-radius:12px; padding:20px; background:#fff;">
+      <h4 style="font-family:var(--font-display); font-size:1.1rem; color:var(--text); margin-bottom:8px;"><i class="fas fa-question-circle" style="color:var(--rose)"></i> Are SkyEagle vendors directly employed by SkyEagle?</h4>
+      <p style="color:var(--text-light); font-size:.92rem; line-height:1.7;">Our vendor network includes both in-house specialists and independently audited, certified contractor partners who meet SkyEagle's strict background and quality criteria.</p>
+    </div>
+
+    <div style="margin-bottom:15px; border:1px solid var(--border); border-radius:12px; padding:20px; background:#fff;">
+      <h4 style="font-family:var(--font-display); font-size:1.1rem; color:var(--text); margin-bottom:8px;"><i class="fas fa-question-circle" style="color:var(--rose)"></i> How do overseas Pakistanis manage property services?</h4>
+      <p style="color:var(--text-light); font-size:.92rem; line-height:1.7;">Overseas clients are assigned a dedicated account manager who provides regular progress updates, video walk-throughs, and online payments.</p>
+    </div>
+
+    <div style="margin-bottom:15px; border:1px solid var(--border); border-radius:12px; padding:20px; background:#fff;">
+      <h4 style="font-family:var(--font-display); font-size:1.1rem; color:var(--text); margin-bottom:8px;"><i class="fas fa-question-circle" style="color:var(--rose)"></i> How can contractors register on the vendor portal?</h4>
+      <p style="color:var(--text-light); font-size:.92rem; line-height:1.7;">Contractors can navigate to the <a href="vendor-portal.html" style="color:var(--blue); font-weight:600;">Vendor Portal</a>, fill out the application form with their company details, and our verification team will get in touch within 24 hours.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-logo-wrap">
+        <div class="footer-logo-mark"><i class="fas fa-building"></i></div>
+        <div class="footer-logo-name">Sky<span>Eagle</span></div>
+      </div>
+      <p class="footer-desc">Lahore's premier real estate consultancy & verified vendor ecosystem.</p>
+    </div>
+    <div>
+      <div class="footer-heading">Services</div>
+      <ul class="footer-links">
+        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Property Valuation</a></li>
+        <li><a href="vendors.html"><i class="fas fa-chevron-right"></i> Construction & Interior</a></li>
+        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Legal Verification</a></li>
+        <li><a href="vendor-portal.html"><i class="fas fa-chevron-right"></i> Vendor Portal</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-heading">Navigation</div>
+      <ul class="footer-links">
+        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+        <li><a href="properties.html"><i class="fas fa-chevron-right"></i> Properties</a></li>
+        <li><a href="agents.html"><i class="fas fa-chevron-right"></i> Agents</a></li>
+        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-heading">Contact</div>
+      <div class="footer-contact-row"><span class="footer-contact-icon"><i class="fas fa-phone-alt"></i></span><span>03184195665</span></div>
+      <div class="footer-contact-row"><span class="footer-contact-icon"><i class="fab fa-whatsapp"></i></span><span>03188791637</span></div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 SkyEagle Real Estate Lahore. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<div id="scroll-top"><i class="fas fa-chevron-up"></i></div>
+<script src="script.js"></script>
+</body>
+</html>
